@@ -1,1 +1,181 @@
+README — Exercícios de Python (Base de Lógica e Listas)
+📚 Objetivo
 
+Este repositório contém exercícios práticos desenvolvidos durante meus estudos de Python.
+O foco principal foi aprender:
+
+Estruturas de repetição (for)
+Condições (if, elif, else)
+Trabalhar com listas
+Índices e posições
+Soma e contagem
+Comparações lógicas
+Desenvolvimento de raciocínio lógico
+
+Os exercícios foram separados por níveis de dificuldade para acompanhar a evolução do aprendizado.
+
+🟢 Nível 1 — Primeiros contatos
+1. Mostrar todos os elementos
+Objetivo:
+
+Criar uma lista com 5 nomes e mostrar cada nome separadamente usando for.
+
+Conceitos praticados:
+Listas
+for
+Percorrer valores
+2. Mostrar números
+Objetivo:
+
+Mostrar números de 1 até 5 usando range().
+
+Conceitos praticados:
+range()
+Estrutura de repetição
+Sequência numérica
+3. Mostrar frutas numeradas
+Objetivo:
+
+Mostrar cada fruta da lista junto da palavra "Fruta:".
+
+Conceitos praticados:
+Percorrer listas
+Concatenação de texto
+print()
+4. Somar todos os números
+Objetivo:
+
+Percorrer uma lista de números e mostrar a soma total.
+
+Conceitos praticados:
+Variável acumuladora
+Soma com +=
+for
+5. Contar quantos elementos existem
+Objetivo:
+
+Contar quantos itens existem dentro de uma lista.
+
+Conceitos praticados:
+Contador
++= 1
+len()
+🟡 Nível 2 — Exploração da lista
+6. Mostrar apenas números pares
+Objetivo:
+
+Mostrar apenas os números pares de uma lista.
+
+Conceitos praticados:
+Operador %
+Condição if
+Números pares
+7. Mostrar apenas números ímpares
+Objetivo:
+
+Mostrar apenas os números ímpares da lista.
+
+Conceitos praticados:
+%
+Condições
+Lógica matemática
+8. Descobrir o maior número
+Objetivo:
+
+Encontrar o maior número da lista sem usar max().
+
+Conceitos praticados:
+Comparação
+Variável auxiliar
+Lógica de maior valor
+9. Descobrir o menor número
+Objetivo:
+
+Encontrar o menor número da lista sem usar min().
+
+Conceitos praticados:
+Comparação
+Menor valor
+Atualização de variável
+10. Contar quantos números são positivos
+Objetivo:
+
+Contar quantos números positivos existem na lista.
+
+Conceitos praticados:
+Condições
+Contadores
+Comparação numérica
+🟠 Nível 3 — Percorrendo com índice
+11. Mostrar posição e valor
+Objetivo:
+
+Mostrar o índice e o valor de cada elemento da lista.
+
+Conceitos praticados:
+range()
+len()
+Índices
+12. Mostrar apenas posições pares
+Objetivo:
+
+Mostrar apenas os elementos que estão em índices pares.
+
+Conceitos praticados:
+Índices
+%
+range(len(lista))
+13. Somar elementos em posições ímpares
+Objetivo:
+
+Somar apenas os elementos que estão em índices ímpares.
+
+Conceitos praticados:
+Índices
+Soma seletiva
+Condições
+🔴 Nível 4 — Desafios simples
+14. Contar letras
+Objetivo:
+
+Descobrir quantas letras existem no total em uma lista de nomes.
+
+Conceitos praticados:
+len()
+Strings
+Acumuladores
+15. Encontrar um valor específico
+Objetivo:
+
+Criar um mini jogo onde o usuário deve adivinhar os nomes sorteados.
+
+O programa:
+
+verifica se o nome existe
+impede acertos repetidos
+continua até todos os nomes serem encontrados
+Conceitos praticados:
+while
+if / elif / else
+Listas auxiliares
+.append()
+Controle de fluxo
+Validação de dados
+16. Análise completa de lista numérica
+Objetivo:
+
+Fazer uma análise completa de uma lista de números.
+
+O programa:
+
+mostra todos os números
+soma os valores
+calcula média
+encontra maior e menor número
+conta pares e ímpares
+Conceitos praticados:
+Acumuladores
+Comparações
+Média
+Estruturas de repetição
+Organização lógica
